@@ -1,5 +1,8 @@
 #include <cdull.h>
 
 int cdull(char usage[], char args[]) {
-    printf("Hello World!\n");
+    if(!usage && !args) {
+        perror("No args.");
+        return 1;
+    }
 }
