@@ -1,5 +1,5 @@
 #include <main.h>
 
-int main(void) {
+int cdull(char usage[], char args[]) {
     printf("Hello World!\n");
 }
